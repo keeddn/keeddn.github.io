@@ -1,0 +1,102 @@
+.background {
+  position: absolute;
+  left: 0px;
+  top:0px;
+  width: 375px;
+  height: 997px;
+  background-size: 100% 100%;
+  opacity: 0.7;
+  background: url("/image/e09-1.png") no-repeat;
+}
+.section-1{
+    width: 375px;
+    height: 50px;
+    background-color: aquamarine;
+}
+.section-1>.row {
+    padding-left: 10px;
+    /* border: 1px solid black; */
+}
+.section-1> .row >.col-md-1{
+    font-size: 17px;
+    color: #fff;
+}
+.section-1> .row >.col-md-3{
+    margin: 9px 0px 0px 29px;
+    border-radius: 5px;
+    width: 269px;
+    height: 32px;
+    padding: 7px 0px 0px 8px;
+    background-color: aqua;
+    color: rgba(255,255,255, 0.85);
+}
+.section-2{
+    width: 375px;
+    height: 182px;
+    background-color: antiquewhite;
+}
+.section-2>.row{
+    /* margin: 0px 0px 0px 0px; */
+    padding: 0px 0px 0px 0px;
+}
+.section-2> .row >.col-md-1{
+    margin:0px 30px 0px 30px;
+    padding: 5px 0px 0px 10px;
+}
+.ng{
+    width: 375px;
+    height: 11px;
+    background-color: antiquewhite;
+    border: 1px solid black;
+}
+.section-3{
+    width: 375px;
+    height: 161px;
+    background-color: white;
+}
+.sq-1{
+    background-color: gray;
+    width: 86px;
+    margin: 7px 0px 0px 24px;
+    height: 87px;
+    box-shadow:  0px 0px 10px 0.5px rgb(71, 70, 70);
+}
+.sq-2{
+    background-color: gray;
+    width: 63px;
+    margin: 8px 0px 0px 36px;
+    height: 63px;
+    box-shadow: 0px 0px 10px 0.5px rgb(71 70 70);
+}
+.sq-3{
+    background-color: gray;
+    width: 38px;
+    margin: 4px 0px 0px 31px;
+    height: 38px;
+    box-shadow: 0px 0px 10px 0.5px rgb(71 70 70);
+}
+.sq-4{
+    background-color: gray;
+    width: 63px;
+    margin: 5px 0px 0px 29px;
+    height: 63px;
+    box-shadow: 0px 0px 10px 0.5px rgb(71 70 70);
+}
+.sq-5{
+    background-color: gray;
+    width: 63px;
+    margin: 5px 0px 0px 13px;
+    height: 63px;
+    box-shadow: 0px 0px 10px 0.5px rgb(71 70 70);
+}
+.sq-6{
+    background-color: gray;
+    width: 89px;
+    margin: 10px 0px 0px 0px;
+    height: 80px;
+    box-shadow: 0px 0px 10px 0.5px rgb(71 70 70);
+}
+.foot{
+    display: flex;
+    flex-wrap: row;
+}
