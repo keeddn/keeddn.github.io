@@ -1,0 +1,99 @@
+/* .background {
+  position: absolute;
+  width: 652px;
+  height: 422px;
+  background: url("/image/e06-3.png") no-repeat;
+  background-size: 100% 100%;
+  opacity: 0.7;
+} */
+.g-index{
+    padding: 8px 0px 0px 9px;
+    border: 1px solid black;
+    width: 640px;
+    height: 412px;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+}
+.li{
+    list-style: none;
+}
+.box{
+    margin: 0px;
+    border: 1px solid black;
+    width: 204px;
+    height: 198px;
+    background-color: aqua;
+}
+.box.two{
+    margin-left:8px
+}
+.box.three{
+    margin-left: 8px;
+}
+.box.four{
+    margin: 8px 0px 0px 0px;
+}
+.box.five{
+    margin: 8px 0px 0px 8px;
+}
+.box.six{
+    margin: 8px 0px 0px 8px;
+}
+.hd{
+    width: 204px;
+    height: 138px;
+    background-color: blueviolet;
+}
+.bd{
+    width: 204px;
+    height: 60px;
+    background-color: yellow;
+}
+.m{
+    margin: 0px;
+    padding: 3px 0px 0px 3px;
+    font-size: 9px;
+    font-weight: bold;
+    color: black;
+    letter-spacing: 0px;
+}
+.m2{
+    display: flex;
+}
+.m2 .left{
+    margin: 2px 0px 0px 6px;
+    color: red;
+    font-size: 8px;
+}
+.m2 .right{
+    margin: 1px 0px 0px 8px;
+    font-size: 8px;
+    letter-spacing: 0px;
+}
+.m3{
+    display: flex;
+}
+.m3 .one{
+    font-size: 20px;
+    color: red;
+    margin: 1px 0px 0px 2px;
+}
+.m3 .two{
+    margin: 14px 0px 0px 2px;
+    font-size: 9px;
+    color: black;
+}
+.m3 .three{
+    margin: 16px 0px 0px 72px;
+    font-size: 8px;
+    color: red;
+    font-weight: bold;
+}
+.m3 .four{
+    margin: 16px 0px 0px 3px;
+    font-size: 8px;
+    color: black;
+    font-weight: bold;
+}
